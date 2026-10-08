@@ -8,20 +8,14 @@ decision model running **in-process on CUDA** — no HTTP, no sidecar, no CPU fa
 Nobody plays Pac-Man: you watch Laya play, and the live panel beside the maze shows every
 decision it makes.
 
-![Laya-Pacman with the live LAYA DECISIONS panel](frame.png)
+![Laya-Pacman — a full game to game over: Laya picks a direction at every junction, the ghosts hunt, and the live LAYA DECISIONS panel shows the probabilities and latency in real time](docs/demo.gif)
 
-## Demo video
-
-`docs/demo.mp4` — a full game to game over: 1068×840, 30 fps, 102.5 s, 3075 frames, H.264,
-8.99 MB. Seed 0, 1025 steps, final score 4590, level 2. It shows the smooth interpolated
-movement and the live **LAYA DECISIONS** side panel (source, personality mode, per-move
-probabilities, latency).
-
-GitHub does not play local `<video>` tags, so open the file directly from the repo
-(`docs/demo.mp4`) or watch the screenshot above. To record a fresh one:
+A full game to game over (seed 0, 1025 steps, final score 4590, level 2), showing the smooth
+interpolated movement and the live **LAYA DECISIONS** panel (source, personality mode,
+per-move probabilities, latency). Record your own:
 
 ```bash
-uv run --with imageio --with imageio-ffmpeg python game.py --record docs/demo.mp4
+uv run --with imageio --with imageio-ffmpeg python game.py --record demo.mp4
 ```
 
 ## What it is
@@ -175,7 +169,7 @@ uv sync --group gpu         # + laya and CUDA torch (cu132 index, ~3 GB, one tim
 | `pyproject.toml` | deps: `pygame`; group `gpu`: `laya`, `torch` (cu132 index) |
 | `docs/PLAN.html` | original build plan (Phase A logic, Phase B GPU bring-up) |
 | `docs/DECISION-ARCHITECTURE.html` | decision pipeline spec + WP4 results (§13) |
-| `docs/demo.mp4`, `docs/reference.png`, `frame.png` | demo video, design reference, screenshot |
+| `docs/demo.gif`, `docs/demo.mp4`, `docs/reference.png`, `frame.png` | demo (inline GIF + full-quality video), design reference, screenshot |
 
 ## Built by two AI agents
 
