@@ -1,0 +1,246 @@
+{
+ "aggregate": {
+  "cache_hit_rate": 0.089,
+  "deaths_per_1000": 4.6,
+  "laya_share": 0.654,
+  "pellets_per_1000": 431.0,
+  "revisit_share": 0.618,
+  "revisits_per_1000": 106.2,
+  "sources": {
+   "chase": 145,
+   "danger": 31,
+   "laya": 560,
+   "loop": 121
+  },
+  "stuck_events_per_1000": 7.0
+ },
+ "config": {
+  "live": true,
+  "mode": "shuffled",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "steps": 1000
+ },
+ "rows": [
+  {
+   "cache_hit_rate": 0.115,
+   "deaths_per_1000": 5.0,
+   "decisions": 166,
+   "direction_freq": {
+    "down": 36,
+    "left": 42,
+    "right": 33,
+    "up": 55
+   },
+   "game_overs": 1,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 27,
+    "left": 14,
+    "right": 25,
+    "up": 38
+   },
+   "laya_share": 0.627,
+   "levels": 2,
+   "max_state_tokens": 96,
+   "mean_ms": 74.3,
+   "mean_state_tokens": 70.9,
+   "option_position_freq": {
+    "0": 77,
+    "1": 20,
+    "2": 7
+   },
+   "pellets_per_1000": 429.0,
+   "revisit_share": 0.584,
+   "revisits_per_1000": 97.0,
+   "score": 4470,
+   "seed": 0,
+   "sources": {
+    "chase": 38,
+    "danger": 4,
+    "laya": 104,
+    "loop": 20
+   },
+   "steps": 1000,
+   "stuck_events_per_1000": 7.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.105,
+   "deaths_per_1000": 5.0,
+   "decisions": 179,
+   "direction_freq": {
+    "down": 44,
+    "left": 40,
+    "right": 39,
+    "up": 56
+   },
+   "game_overs": 1,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 25,
+    "left": 20,
+    "right": 24,
+    "up": 36
+   },
+   "laya_share": 0.587,
+   "levels": 1,
+   "max_state_tokens": 99,
+   "mean_ms": 74.4,
+   "mean_state_tokens": 70.8,
+   "option_position_freq": {
+    "0": 87,
+    "1": 11,
+    "2": 7
+   },
+   "pellets_per_1000": 451.0,
+   "revisit_share": 0.553,
+   "revisits_per_1000": 99.0,
+   "score": 2910,
+   "seed": 1,
+   "sources": {
+    "chase": 40,
+    "danger": 8,
+    "laya": 105,
+    "loop": 26
+   },
+   "steps": 1000,
+   "stuck_events_per_1000": 6.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.1,
+   "deaths_per_1000": 4.0,
+   "decisions": 181,
+   "direction_freq": {
+    "down": 44,
+    "left": 36,
+    "right": 40,
+    "up": 61
+   },
+   "game_overs": 0,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 38,
+    "left": 9,
+    "right": 33,
+    "up": 40
+   },
+   "laya_share": 0.663,
+   "levels": 2,
+   "max_state_tokens": 90,
+   "mean_ms": 75.5,
+   "mean_state_tokens": 70.9,
+   "option_position_freq": {
+    "0": 89,
+    "1": 23,
+    "2": 8
+   },
+   "pellets_per_1000": 361.0,
+   "revisit_share": 0.724,
+   "revisits_per_1000": 131.0,
+   "score": 4610,
+   "seed": 2,
+   "sources": {
+    "chase": 13,
+    "danger": 7,
+    "laya": 120,
+    "loop": 41
+   },
+   "steps": 1000,
+   "stuck_events_per_1000": 8.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.048,
+   "deaths_per_1000": 3.0,
+   "decisions": 172,
+   "direction_freq": {
+    "down": 39,
+    "left": 38,
+    "right": 40,
+    "up": 55
+   },
+   "game_overs": 0,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 36,
+    "left": 18,
+    "right": 28,
+    "up": 43
+   },
+   "laya_share": 0.727,
+   "levels": 2,
+   "max_state_tokens": 90,
+   "mean_ms": 74.1,
+   "mean_state_tokens": 73.2,
+   "option_position_freq": {
+    "0": 87,
+    "1": 27,
+    "2": 11
+   },
+   "pellets_per_1000": 457.0,
+   "revisit_share": 0.645,
+   "revisits_per_1000": 111.0,
+   "score": 7050,
+   "seed": 3,
+   "sources": {
+    "chase": 19,
+    "danger": 9,
+    "laya": 125,
+    "loop": 19
+   },
+   "steps": 1000,
+   "stuck_events_per_1000": 8.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.075,
+   "deaths_per_1000": 6.0,
+   "decisions": 159,
+   "direction_freq": {
+    "down": 38,
+    "left": 31,
+    "right": 30,
+    "up": 60
+   },
+   "game_overs": 1,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 22,
+    "left": 14,
+    "right": 24,
+    "up": 46
+   },
+   "laya_share": 0.667,
+   "levels": 1,
+   "max_state_tokens": 90,
+   "mean_ms": 75.6,
+   "mean_state_tokens": 71.4,
+   "option_position_freq": {
+    "0": 78,
+    "1": 22,
+    "2": 6
+   },
+   "pellets_per_1000": 457.0,
+   "revisit_share": 0.585,
+   "revisits_per_1000": 93.0,
+   "score": 3730,
+   "seed": 4,
+   "sources": {
+    "chase": 35,
+    "danger": 3,
+    "laya": 106,
+    "loop": 15
+   },
+   "steps": 1000,
+   "stuck_events_per_1000": 6.0,
+   "truncated": 0
+  }
+ ]
+}

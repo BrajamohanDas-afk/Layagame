@@ -1,0 +1,114 @@
+{
+ "aggregate": {
+  "cache_hit_rate": 0.0,
+  "deaths_per_1000": 3.125,
+  "laya_share": 0.798,
+  "pellets_per_1000": 589.4,
+  "revisit_share": 0.612,
+  "revisits_per_1000": 115.625,
+  "sources": {
+   "chase": 41,
+   "danger": 7,
+   "laya": 241,
+   "loop": 13
+  },
+  "stuck_events_per_1000": 3.125
+ },
+ "config": {
+  "live": false,
+  "mode": "labels",
+  "seeds": [
+   0,
+   1
+  ],
+  "steps": 800
+ },
+ "rows": [
+  {
+   "cache_hit_rate": 0.0,
+   "deaths_per_1000": 2.5,
+   "decisions": 153,
+   "direction_freq": {
+    "down": 22,
+    "left": 45,
+    "right": 40,
+    "up": 46
+   },
+   "game_overs": 0,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 16,
+    "left": 36,
+    "right": 35,
+    "up": 37
+   },
+   "laya_share": 0.81,
+   "levels": 2,
+   "max_state_tokens": 83,
+   "mean_ms": 0.0,
+   "mean_state_tokens": 66.6,
+   "option_position_freq": {
+    "0": 59,
+    "1": 52,
+    "2": 13
+   },
+   "pellets_per_1000": 568.8,
+   "revisit_share": 0.627,
+   "revisits_per_1000": 120.0,
+   "score": 6270,
+   "seed": 0,
+   "sources": {
+    "chase": 21,
+    "danger": 4,
+    "laya": 124,
+    "loop": 4
+   },
+   "steps": 800,
+   "stuck_events_per_1000": 3.75,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.0,
+   "deaths_per_1000": 3.75,
+   "decisions": 149,
+   "direction_freq": {
+    "down": 25,
+    "left": 41,
+    "right": 40,
+    "up": 43
+   },
+   "game_overs": 1,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 17,
+    "left": 36,
+    "right": 33,
+    "up": 31
+   },
+   "laya_share": 0.785,
+   "levels": 2,
+   "max_state_tokens": 83,
+   "mean_ms": 0.0,
+   "mean_state_tokens": 66.4,
+   "option_position_freq": {
+    "0": 49,
+    "1": 55,
+    "2": 13
+   },
+   "pellets_per_1000": 610.0,
+   "revisit_share": 0.597,
+   "revisits_per_1000": 111.25,
+   "score": 4500,
+   "seed": 1,
+   "sources": {
+    "chase": 20,
+    "danger": 3,
+    "laya": 117,
+    "loop": 9
+   },
+   "steps": 800,
+   "stuck_events_per_1000": 2.5,
+   "truncated": 0
+  }
+ ]
+}

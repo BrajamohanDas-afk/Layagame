@@ -1,0 +1,135 @@
+{
+ "limit": 400,
+ "live": false,
+ "results": [
+  {
+   "chance_agreement": 0.461,
+   "chi2_direction": 2.5,
+   "chi2_position": 0.2,
+   "direction_expected": {
+    "down": 79.3,
+    "left": 103.3,
+    "right": 108.7,
+    "up": 108.7
+   },
+   "direction_obs": {
+    "down": 71,
+    "left": 96,
+    "right": 116,
+    "up": 117
+   },
+   "direction_z": {
+    "down": -1.28,
+    "left": -0.98,
+    "right": 0.95,
+    "up": 1.09
+   },
+   "feature_agreement": 0.475,
+   "k_dist": {
+    "2": 306,
+    "3": 94
+   },
+   "left_right_left": 19,
+   "left_right_n": 41,
+   "mode": "labels",
+   "n": 400,
+   "near_ties": 17,
+   "position_expected": {
+    "0": 184.3,
+    "1": 184.3,
+    "2": 31.3
+   },
+   "position_obs": {
+    "0": 182,
+    "1": 188,
+    "2": 30
+   }
+  },
+  {
+   "chance_agreement": 0.461,
+   "chi2_direction": 1.3,
+   "chi2_position": 1.6,
+   "direction_expected": {
+    "down": 79.3,
+    "left": 103.3,
+    "right": 108.7,
+    "up": 108.7
+   },
+   "direction_obs": {
+    "down": 79,
+    "left": 111,
+    "right": 110,
+    "up": 100
+   },
+   "direction_z": {
+    "down": -0.05,
+    "left": 1.03,
+    "right": 0.17,
+    "up": -1.14
+   },
+   "feature_agreement": 0.448,
+   "k_dist": {
+    "2": 306,
+    "3": 94
+   },
+   "left_right_left": 16,
+   "left_right_n": 41,
+   "mode": "shuffled",
+   "n": 400,
+   "near_ties": 20,
+   "position_expected": {
+    "0": 184.3,
+    "1": 184.3,
+    "2": 31.3
+   },
+   "position_obs": {
+    "0": 188,
+    "1": 175,
+    "2": 37
+   }
+  },
+  {
+   "chance_agreement": 0.461,
+   "chi2_direction": 4.6,
+   "chi2_position": 0.3,
+   "direction_expected": {
+    "down": 79.3,
+    "left": 103.3,
+    "right": 108.7,
+    "up": 108.7
+   },
+   "direction_obs": {
+    "down": 85,
+    "left": 115,
+    "right": 91,
+    "up": 109
+   },
+   "direction_z": {
+    "down": 0.87,
+    "left": 1.56,
+    "right": -2.3,
+    "up": 0.04
+   },
+   "feature_agreement": 0.492,
+   "k_dist": {
+    "2": 306,
+    "3": 94
+   },
+   "left_right_left": 25,
+   "left_right_n": 41,
+   "mode": "neutral",
+   "n": 400,
+   "near_ties": 12,
+   "position_expected": {
+    "0": 184.3,
+    "1": 184.3,
+    "2": 31.3
+   },
+   "position_obs": {
+    "0": 179,
+    "1": 189,
+    "2": 32
+   }
+  }
+ ]
+}

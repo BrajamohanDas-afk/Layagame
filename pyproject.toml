@@ -1,0 +1,17 @@
+[project]
+name = "laya-pacman"
+version = "0.1.0"
+description = "Watch-only neon Pac-Man whose turning decisions come from the local Laya decision model on CUDA."
+requires-python = ">=3.12"
+dependencies = ["pygame>=2.6"]
+
+[dependency-groups]
+gpu = ["laya>=0.3.22", "torch>=2.14"]
+
+[[tool.uv.index]]
+name = "pytorch-cu132"
+url = "https://download.pytorch.org/whl/cu132"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu132" }

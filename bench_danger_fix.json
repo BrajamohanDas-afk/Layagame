@@ -1,0 +1,73 @@
+{
+ "aggregate": {
+  "cache_hit_rate": 0.0,
+  "deaths_per_1000": 2.5,
+  "laya_share": 0.571,
+  "pellets_per_1000": 535.0,
+  "revisit_share": 0.471,
+  "revisits_per_1000": 82.5,
+  "sources": {
+   "chase": 20,
+   "danger": 5,
+   "laya": 40,
+   "loop": 5
+  },
+  "stuck_events_per_1000": 2.5
+ },
+ "config": {
+  "ablate": false,
+  "live": true,
+  "mode": "shuffled",
+  "seeds": [
+   0
+  ],
+  "steps": 400
+ },
+ "rows": [
+  {
+   "cache_hit_rate": 0.0,
+   "deaths_per_1000": 2.5,
+   "decisions": 70,
+   "direction_freq": {
+    "down": 19,
+    "left": 17,
+    "right": 14,
+    "up": 20
+   },
+   "game_overs": 0,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 10,
+    "left": 6,
+    "right": 9,
+    "up": 15
+   },
+   "laya_share": 0.571,
+   "levels": 1,
+   "max_state_tokens": 87,
+   "mean_ms": 33.2,
+   "mean_state_tokens": 69.2,
+   "option_position_freq": {
+    "0": 28,
+    "1": 11,
+    "2": 1
+   },
+   "pellets_per_1000": 535.0,
+   "revisit_share": 0.471,
+   "revisits_per_1000": 82.5,
+   "score": 3060,
+   "seed": 0,
+   "sources": {
+    "chase": 20,
+    "danger": 5,
+    "laya": 40,
+    "loop": 5
+   },
+   "steps": 400,
+   "stuck_events_endgame": 0,
+   "stuck_events_midlevel": 1,
+   "stuck_events_per_1000": 2.5,
+   "truncated": 0
+  }
+ ]
+}

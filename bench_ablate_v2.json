@@ -1,0 +1,219 @@
+{
+ "aggregate": {
+  "cache_hit_rate": 0.144,
+  "deaths_per_1000": 11.2,
+  "laya_share": 1.0,
+  "pellets_per_1000": 117.4,
+  "revisit_share": 0.834,
+  "revisits_per_1000": 147.8,
+  "sources": {
+   "laya": 887
+  },
+  "stuck_events_per_1000": 4.0
+ },
+ "config": {
+  "ablate": true,
+  "live": true,
+  "mode": "labels",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "steps": 1000
+ },
+ "rows": [
+  {
+   "cache_hit_rate": 0.164,
+   "deaths_per_1000": 13.0,
+   "decisions": 177,
+   "direction_freq": {
+    "down": 30,
+    "left": 38,
+    "up": 109
+   },
+   "game_overs": 2,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 30,
+    "left": 38,
+    "up": 109
+   },
+   "laya_share": 1.0,
+   "levels": 1,
+   "max_state_tokens": 379,
+   "mean_ms": 60.4,
+   "mean_state_tokens": 372.0,
+   "option_position_freq": {
+    "0": 177
+   },
+   "pellets_per_1000": 120.0,
+   "revisit_share": 0.831,
+   "revisits_per_1000": 147.0,
+   "score": 640,
+   "seed": 0,
+   "sources": {
+    "laya": 177
+   },
+   "steps": 1000,
+   "stuck_events_endgame": 0,
+   "stuck_events_midlevel": 4,
+   "stuck_events_per_1000": 4.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.192,
+   "deaths_per_1000": 16.0,
+   "decisions": 182,
+   "direction_freq": {
+    "down": 24,
+    "left": 40,
+    "up": 118
+   },
+   "game_overs": 3,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 24,
+    "left": 40,
+    "up": 118
+   },
+   "laya_share": 1.0,
+   "levels": 1,
+   "max_state_tokens": 379,
+   "mean_ms": 60.3,
+   "mean_state_tokens": 371.4,
+   "option_position_freq": {
+    "0": 182
+   },
+   "pellets_per_1000": 160.0,
+   "revisit_share": 0.78,
+   "revisits_per_1000": 142.0,
+   "score": 640,
+   "seed": 1,
+   "sources": {
+    "laya": 182
+   },
+   "steps": 1000,
+   "stuck_events_endgame": 0,
+   "stuck_events_midlevel": 7,
+   "stuck_events_per_1000": 7.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.092,
+   "deaths_per_1000": 6.0,
+   "decisions": 173,
+   "direction_freq": {
+    "down": 32,
+    "left": 42,
+    "up": 99
+   },
+   "game_overs": 1,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 32,
+    "left": 42,
+    "up": 99
+   },
+   "laya_share": 1.0,
+   "levels": 1,
+   "max_state_tokens": 379,
+   "mean_ms": 60.9,
+   "mean_state_tokens": 373.2,
+   "option_position_freq": {
+    "0": 173
+   },
+   "pellets_per_1000": 80.0,
+   "revisit_share": 0.884,
+   "revisits_per_1000": 153.0,
+   "score": 840,
+   "seed": 2,
+   "sources": {
+    "laya": 173
+   },
+   "steps": 1000,
+   "stuck_events_endgame": 0,
+   "stuck_events_midlevel": 2,
+   "stuck_events_per_1000": 2.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.162,
+   "deaths_per_1000": 11.0,
+   "decisions": 179,
+   "direction_freq": {
+    "down": 27,
+    "left": 41,
+    "up": 111
+   },
+   "game_overs": 2,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 27,
+    "left": 41,
+    "up": 111
+   },
+   "laya_share": 1.0,
+   "levels": 1,
+   "max_state_tokens": 379,
+   "mean_ms": 61.0,
+   "mean_state_tokens": 372.5,
+   "option_position_freq": {
+    "0": 179
+   },
+   "pellets_per_1000": 107.0,
+   "revisit_share": 0.844,
+   "revisits_per_1000": 151.0,
+   "score": 640,
+   "seed": 3,
+   "sources": {
+    "laya": 179
+   },
+   "steps": 1000,
+   "stuck_events_endgame": 0,
+   "stuck_events_midlevel": 3,
+   "stuck_events_per_1000": 3.0,
+   "truncated": 0
+  },
+  {
+   "cache_hit_rate": 0.108,
+   "deaths_per_1000": 10.0,
+   "decisions": 176,
+   "direction_freq": {
+    "down": 29,
+    "left": 40,
+    "up": 107
+   },
+   "game_overs": 2,
+   "guard_failures": {},
+   "laya_direction_freq": {
+    "down": 29,
+    "left": 40,
+    "up": 107
+   },
+   "laya_share": 1.0,
+   "levels": 1,
+   "max_state_tokens": 379,
+   "mean_ms": 61.7,
+   "mean_state_tokens": 372.2,
+   "option_position_freq": {
+    "0": 176
+   },
+   "pellets_per_1000": 120.0,
+   "revisit_share": 0.83,
+   "revisits_per_1000": 146.0,
+   "score": 840,
+   "seed": 4,
+   "sources": {
+    "laya": 176
+   },
+   "steps": 1000,
+   "stuck_events_endgame": 0,
+   "stuck_events_midlevel": 4,
+   "stuck_events_per_1000": 4.0,
+   "truncated": 0
+  }
+ ]
+}
